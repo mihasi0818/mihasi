@@ -1,0 +1,33 @@
+@charset "utf-8";
+h3{
+    color: red;
+    font-size: 40px
+}
+.wrappeh3{
+    font-family: arial, sans-serif;
+	max-width: 600px;
+	margin: 9px ;
+	color: #666;
+	text-align: center;
+}
+#time{
+    font-size: 100px;
+    margin: 20px 50%;
+}
+button {
+    padding: 20px 30px;
+    font-size: 30px;
+    display: inline-block;
+    border: none;
+    color: #f0ffff;
+    background-color: #006400;
+    border-radius: 15px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #0000ff;
+}
+button:disabled {
+    cursor: default;
+    background-color: #6a5acd;
+}
